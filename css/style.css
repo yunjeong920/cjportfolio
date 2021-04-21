@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/*상단으로 이동버튼 start*/
+#go_to_top{
+  position: fixed;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  right: 15px;
+  bottom: 15px;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 20px;
+  /* border-radius: 100%; */
+  overflow: hidden;
+  background: white; /*#ffffff*/
+}
+
+#go_to_top a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: url('../img/arrow_up.png') no-repeat center center;
+  /*배경이미지로 입력할때*/
+
+  /*문자로 입력할때*/
+  /* line-height: 40px;
+  text-align: center;
+  text-transform: uppercase; */
+}
+/*상단으로 이동버튼 end*/
+
+/*상단헤더 영역 start*/
+#header{
+  min-width: 1200px;
+  border-bottom: 1px solid #f1f1f1;
+  /* overflow: hidden; */
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+#header h1 a{
+  display: inline-block;
+  padding-left: 200px;
+  height: 80px;
+}
+
+#logo{
+  float: left;
+  background: url(../img/top_logo_dark.png) no-repeat;
+}
+
+#gnb{
+  float: right;
+}
+
+#gnb ul{
+  overflow: hidden;
+}
+
+#gnb ul li{
+  float: left;
+  height: 60px;
+  margin-right: 30px;
+}
+
+#gnb ul li:last-child{
+  margin-right: 0;
+}
+
+#gnb ul li a{
+  line-height: 80px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+/*상단헤더 영역 end*/
+/*메인배너start*/
+#mainbanner{
+  min-width: 1200px;
+  height: 850px;
+  background: url('../img/banner_01.jpg') center center;
+  background-size: cover;
+}
+
+#mainbanner h1{
+  float: left;
+  overflow: hidden;
+  line-height: 100px;
+  font-size: 50px;
+  color: white;
+  padding-top: 300px;
+  padding-left: 800px;
+}
+/*메인배너end*/
+/*컨텐츠 영역 start*/
+#container{
+  width: 1200px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+#container h1{
+  text-align: center;
+  color: #333333;
+  padding: 30px 0 15px;
+}
+#container h2{
+  text-align: center;
+  color: #666666;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+#container section{
+  overflow: hidden;
+}
+
+/*items 공통 스타일 start*/
+#container section .items h3{
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+#container section .items img{
+  width: 100%;
+}
+/*items 공통 스타일 end*/
+
+/*section type_a  start*/
+#container section.type_a .items h3{
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+#container section.type_a .items{
+  background: #f9eedb;
+  float: left;
+  width: calc( 25% - 40px );
+  min-height: 100px;
+  padding: 10px 20px;
+  text-align: center;
+}
+#container section .items{
+  float: left;
+  width: calc( 25% - 40px );
+  min-height: 100px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#container section.type_a .items .bg_box{
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+}
+
+#container section.type_a .items:nth-child(4n+1) .bg_box{
+  background-image: url('../img/about_1.jpg');
+}
+#container section.type_a .items:nth-child(4n+2) .bg_box{
+  background-image: url('../img/about_2.jpg');
+}
+#container section.type_a .items:nth-child(4n+3) .bg_box{
+  background-image: url('../img/about_3.jpg');
+}
+#container section.type_a .items:nth-child(4n+4) .bg_box{
+  background-image: url('../img/about_4.jpg');
+}
+/*section type_a  end*/
+
+/*section type_b start*/
+
+#container section.type_b .items{
+  width: calc(25% - 20px);
+  margin: 0 10px 20px;
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+
+#container section.type_b .items .box{
+
+}
+/*section type_b end*/
+/* section type_c */
+#container section.type_c .items h3{
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#line{
+  font-size: 20px;
+}
+#line{
+  float: right;
+}
+
+#line ul{
+  overflow: hidden;
+}
+
+#line ul li{
+  float: left;
+  height: 10px;
+  margin: 78px;
+  text-align: center;
+}
+
+/* #line ul li:last-child{
+  margin-right: 0;
+} */
+
+#line ul li a{
+  line-height: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #666666;
+}
+
+#container section.type_c .items h3{
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+#container section.type_c .items{
+  background: #e6cda7;
+  float: left;
+  width: 30%;
+  min-height: 150px;
+  padding: 10px 20px;
+  text-align: center;
+}
+#container section .items{
+  float: left;
+  width: calc( 25% - 40px );
+  min-height: 100px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#container section.type_c .items .bg_box{
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+
+/*컨텐츠 영역 end*/
+/*카피라이트 영역 start*/
+#footer{
+  text-align: center;
+  border-top: 1px solid #f1f1f1;
+  padding: 20px 0;
+  margin-top: 50px;
+  background: #f9f9f9;
+}
+
+#footer .inner{
+  width: 1200px;
+  margin: 0 auto;
+}
+/*카피라이트 영역 end*/
