@@ -1,2 +1,2 @@
 # cjportfolio
- 포트폴리오3
+ cj 연습 페이지
